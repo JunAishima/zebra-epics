@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /dls_sw/prod/tools/RHEL6-x86_64/qt_static/5-2-0/src/qt-everywhere-opensource-src-5.2.0/qtdeclarative/src/imports/folderlistmodel
+QMAKE_PRO_INPUT = folderlistmodel.pro
+QMAKE_PRL_TARGET = libqmlfolderlistmodelplugin.a
+QMAKE_PRL_CONFIG = lex yacc depend_includepath testcase_targets import_plugins import_qpa_plugin qt warn_on release link_prl incremental gdb_dwarf_index static qpa no_mocdepend release qt_no_framework linux unix posix gcc compile_examples qpa largefile precompile_header sse2 sse3 ssse3 sse4_1 sse4_2 avx pcre use_libmysqlclient_r prefix_build force_independent create_prl link_prl prepare_docs qt_docs_targets no_private_qt_headers_warning QTDIR_build exceptions_off testcase_exceptions qt_example_installs warning_clean plugin c++11 hide_symbols bsymbolic_functions staticlib have_target thread moc resources dll
+QMAKE_PRL_VERSION = 1.0.0
+QMAKE_PRL_LIBS = -L/dls_sw/prod/tools/RHEL6-x86_64/qt_static/5-2-0/prefix/lib -lQt5Qml -L/dls_sw/prod/tools/RHEL6-x86_64/qt_static/5-2-0/prefix/lib -lQt5Network -lQt5Core -lm -ldl -lrt -lpthread  

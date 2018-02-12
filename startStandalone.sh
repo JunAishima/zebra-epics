@@ -1,5 +1,5 @@
 #!/bin/bash
-HERE="$(dirname "$0")"
+HERE="/usr/lib/epics/iocBoot/zebra"
 # Take the PV prefix from the first argument from the script if supplied
 # This must be specified if there are more than one instances of the IOC on
 # the network

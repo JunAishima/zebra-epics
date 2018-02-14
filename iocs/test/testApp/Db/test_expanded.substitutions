@@ -26,5 +26,5 @@
 file $(ZEBRA)/db/zebra.template
 {
 pattern { P, Q, PORT, NELM, EMPTY, PREC, M1, M1DIR, M1HOMESETTLE, M2, M2DIR, M2HOMESETTLE, M3, M3DIR, M3HOMESETTLE, M4, M4DIR, M4HOMESETTLE }
-    { "$(ZEBRAPREFIX)", "", "ZEBRA", "100000", "", "4", "$(P)$(Q):NOMOTOR", "+", "5", "$(P)$(Q):NOMOTOR", "+", "5", "$(P)$(Q):NOMOTOR", "+", "5", "$(P)$(Q):NOMOTOR", "+", "5" }
+    { "$(ZEBRAPREFIX)", "", "ZEBRA", "100000", "", "4", "PEGAS:miocb0101002", "+", "5", "PEGAS:miocb0101003", "+", "5", "PEGAS:miocb0101001", "+", "5", "PEGAS:miocb0101000", "+", "5" }
 }
